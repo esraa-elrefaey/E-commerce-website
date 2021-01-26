@@ -476,14 +476,14 @@ a{
 }
 #deal .content p{
     font-size: 3rem;
-    color: #fff;
+    color: #333;
 }
 #offer #deal i {
     color: gold;
     font-size: 1.7rem;
 }
 #offer #deal .price {
-    color: #fff;
+    color: #333;
     font-size: 3rem;
 }
 

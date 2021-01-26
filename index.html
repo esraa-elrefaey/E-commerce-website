@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>E-commerce Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+
+    <!-- OwlCarousel2 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" />
+    
+    <!-- Custom Stylesheet -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    
+</head>
+<body>
+    <!-- Header section starts -->
+    <header id="header" class="fixed-top">
+       <div class="fas fa-bars"></div>
+       <a href="#" class="logo"><li class="fas fa-shopping-bag"></li><h1>Shopping</h1></a>
+       <div class="left">
+           <div class="search-containeer">
+               <label for="search" class="fas fa-search"></label>
+               <input type="search" placeholder="search" id="search">
+           </div>
+           <div class="fas fa-shopping-cart"></div>
+       </div>
+       <!-- Navbar -->
+       <Nav  class="Navbar">
+           <ul>
+               <li><a href="#home">home</a></li>
+               <li><a href="#product">product</a></li>
+               <li><a href="#review">review</a></li>
+               <li><a href="#offer">offer</a></li>
+               <li><a href="#newsletter">newsletter</a></li>
+           </ul>
+
+       </Nav>
+    </header>
+
+    <!-- Header section ends -->
+
+    <!-- Home section starts -->
+    <section id="home" class="owl-carousel owl-theme home-slide">
+        <div class="slide item container">
+            <div class="content">
+                <h1> nike's shoes </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Quod facilis enim ipsam nam dolorem et dolore!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                    <h3 class="price">$600</h3>
+                    <a href="#"><button>add to cart<li class="fas fa-shopping-cart"></li></button></a>
+            </div>
+            <div class="images">
+                <img src="images/shoe3.png" style="transform: rotate(35deg);">
+            </div>
+        </div>
+
+        <div class="slide item container">
+            <div class="content">
+                <h1> women's clothes </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod facilis enim ipsam nam dolorem et dolore!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                    <h3 class="price">$1,500</h3>
+                    <a href="#"><button>add to cart<li class="fas fa-shopping-cart"></li></button></a>
+            </div>
+            <div class="images">
+                <img src="images/cloth1.png" >
+            </div>
+        </div>
+        <div class="slide item container">
+            <div class="content">
+                <h1> apple's watch </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facilis enim ipsam nam dolorem et dolore!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                    <h3 class="price">$5.000</h3>
+                    <a href="#"><button>add to cart<li class="fas fa-shopping-cart"></li></button></a>
+            </div>
+            <div class="images">
+                <img src="images/watch4.png" >
+            </div>
+        </div>
+
+    </section>
+    <!--Home section ends -->
+
+     <!--Product section starts -->
+     <section id="product">
+         <h1 class="heading">products</h1>
+
+         <!-- Shoes -->
+         <div class="product-container container ">
+             <h2 class="title">shoes</h2>
+             <div class="product-slider  owl-carousel owl-theme">
+                
+                <div class="product-card item">
+                    <div class="images">
+                        <img src="images/shoe1.png">
+                    </div>
+                    <div class="content">
+                        <h3>shoe 1</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$550</div>
+                    </div>
+                    <div class="info">
+                        <h4>product info </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                        <a href="#"><button>add to cart</button></a>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitch"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card item">
+                    <div class="images">
+                        <img src="images/shoe2.png">
+                    </div>
+                    <div class="content">
+                        <h3>shoe 2</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$450</div>
+                    </div>
+                    <div class="info">
+                        <h4>product info </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                        <a href="#"><button>add to cart</button></a>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitch"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card item">
+                    <div class="images">
+                        <img src="images/shoe3.png">
+                    </div>
+                    <div class="content">
+                        <h3>shoe 3</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$550</div>
+                    </div>
+                    <div class="info">
+                        <h4>product info </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                        <a href="#"><button>add to cart</button></a>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitch"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card item">
+                    <div class="images">
+                        <img src="images/shoe4.png">
+                    </div>
+                    <div class="content">
+                        <h3>shoe 4</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$450</div>
+                    </div>
+                    <div class="info">
+                        <h4>product info </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                        <a href="#"><button>add to cart</button></a>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitch"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card item">
+                    <div class="images">
+                        <img src="images/shoe5.png">
+                    </div>
+                    <div class="content">
+                        <h3>shoe 5</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$550</div>
+                    </div>
+                    <div class="info">
+                        <h4>product info </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                        <a href="#"><button>add to cart</button></a>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitch"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+             </div>
+         </div>
+
+         <!-- Watches -->
+         <div class="product-container container ">
+            <h2 class="title">watches</h2>
+            <div class="product-slider  owl-carousel owl-theme">
+               
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/watch1.png">
+                   </div>
+                   <div class="content">
+                       <h3>watch 1</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$2.550</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/watch2.png">
+                   </div>
+                   <div class="content">
+                       <h3>watch 2</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$3.450</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/watch3.png">
+                   </div>
+                   <div class="content">
+                       <h3>watch 3</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$3.550</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/watch4.png">
+                   </div>
+                   <div class="content">
+                       <h3>watch 4</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$2.450</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+
+        <!-- T-Shirtes -->
+        <div class="product-container container ">
+            <h2 class="title">shirtes</h2>
+            <div class="product-slider  owl-carousel owl-theme">
+               
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/shirt1.png">
+                   </div>
+                   <div class="content">
+                       <h3>shirt 1</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$550</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/shirt2.png">
+                   </div>
+                   <div class="content">
+                       <h3>shirt 2</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$450</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/shirt3.png">
+                   </div>
+                   <div class="content">
+                       <h3>shirt 3</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$550</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/shirt4.png">
+                   </div>
+                   <div class="content">
+                       <h3>shirt 4</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$450</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+               
+            </div>
+        </div>
+
+         <!-- Women's clothes -->
+         <div class="product-container container ">
+            <h2 class="title">women's clothes</h2>
+            <div class="product-slider  owl-carousel owl-theme">
+               
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/cloth1.png">
+                   </div>
+                   <div class="content">
+                       <h3>cloth 1</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$550</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/cloth2.png">
+                   </div>
+                   <div class="content">
+                       <h3>cloth 2</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$450</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/cloth3.png">
+                   </div>
+                   <div class="content">
+                       <h3>cloth 3</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$550</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/cloth4.png">
+                   </div>
+                   <div class="content">
+                       <h3>cloth 4</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$450</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+               
+            </div>
+        </div>
+         <!-- SmartPhones -->
+         <div class="product-container container ">
+            <h2 class="title">smartphones</h2>
+            <div class="product-slider  owl-carousel owl-theme">
+               
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/phone1.png">
+                   </div>
+                   <div class="content">
+                       <h3>phone 1</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$5.550</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/phone2.png">
+                   </div>
+                   <div class="content">
+                       <h3>phone 2</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$3.450</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="product-card item">
+                   <div class="images">
+                       <img src="images/phone3.png">
+                   </div>
+                   <div class="content">
+                       <h3>phone 3</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <div class="price">$4.550</div>
+                   </div>
+                   <div class="info">
+                       <h4>product info </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab. Aperiam impedit expedita deleniti nam rem tempora illum inventore officiis aliquid, suscipit adipisci veniam quaerat ex nisi repudiandae quos corporis!</p>
+                       <a href="#"><button>add to cart</button></a>
+                       <div class="share">
+                           <a href="#" class="fab fa-facebook-f"></a>
+                           <a href="#" class="fab fa-twitch"></a>
+                           <a href="#" class="fab fa-instagram"></a>
+                       </div>
+                   </div>
+               </div>
+
+            </div>
+        </div>
+
+     </section>
+      <!--Product section ends -->
+
+      <!-- Review Section starts-->
+      <section id="review">
+          <div class="heading">our customers review</div>
+          <div class="box-container">
+              <div class="review-slider owl-carousel owl-theme">
+                  <div class="box item ">
+                      <div class="comment">
+                          <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Tempora soluta sapiente molestiae excepturi amet corrupti tempore doloribus eligendi! Nulla, 
+                            cupiditate iusto eligendi odit labore praesentium non quaerat veritatis necessitatibus reprehenderit<i class="fas fa-quote-right"></i></p>
+                            <h3>someone'name</h3>
+                      </div>
+                      <div class="images">
+                          <img src="images/pic-1.jpg">
+                      </div>
+                  </div>
+                  <div class="box item ">
+                    <div class="comment">
+                        <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Tempora soluta sapiente molestiae excepturi amet corrupti tempore doloribus eligendi! Nulla, 
+                          cupiditate iusto eligendi odit labore praesentium non quaerat veritatis necessitatibus reprehenderit<i class="fas fa-quote-right"></i></p>
+                          <h3>someone'name</h3>
+                    </div>
+                    <div class="images">
+                        <img src="images/pic-2.jpg">
+                    </div>
+                   </div>
+                   <div class="box item ">
+                    <div class="comment">
+                        <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Tempora soluta sapiente molestiae excepturi amet corrupti tempore doloribus eligendi! Nulla, 
+                          cupiditate iusto eligendi odit labore praesentium non quaerat veritatis necessitatibus reprehenderit<i class="fas fa-quote-right"></i></p>
+                          <h3>someone'name</h3>
+                    </div>
+                    <div class="images">
+                        <img src="images/pic-3.jpg">
+                    </div>
+                </div>
+
+              </div>
+          </div>
+
+      </section>
+      <!-- Review section ends -->
+
+      <!-- Offer/deal section starts -->
+       <section id="offer">
+           <div class="heading">deal of the day</div>
+           <div class="images">
+               <div class="box">
+                   <img src="images/icon-1.svg">
+                   <h3>easy payment</h3>
+               </div>
+               <div class="box">
+                    <img src="images/icon-2.svg">
+                    <h3>free shipping</h3>
+                </div>
+                <div class="box">
+                    <img src="images/icon-3.svg">
+                    <h3>10 days replacements</h3>
+                </div>
+           </div>
+           <div id="deal">
+               <div class="images-deal">
+                   <img src="images/smartphone.png">
+               </div>
+               <div class="content">
+                   <h4>smartphone</h4>
+                   <p>upto 25% off on first shipping</p>
+                   <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                   </div>
+                   <div class="price">$8.000</div>
+                    <a href="#"><button>add to cart</button></a>
+               </div>
+           </div>
+       </section>
+        <!-- Offer/deal section ends -->
+
+         <!-- Brand section starts -->
+         <div id="brand">
+             <div class="brand-slider owl-carousel owl-theme">
+                 <img src="images/brand1.png" class="item">
+                 <img src="images/brand2.png" class="item">
+                 <img src="images/brand-3.png" class="item">
+             </div>
+         </div>
+          <!-- Brand section ends -->
+
+          <!-- Newsletter section starts -->
+          <section id="newsletter">
+              <h1>newsletter</h1>
+              <p>subscribe us for latest updates</p>
+              <input type="text" placeholder="subscribe"><br>
+              <input type="submit" value="subscribe">
+          </section>
+          <!--Newsletter  section ends -->
+
+           <!-- Footer section starts -->
+           <section id="footer" class="container-fluid">
+               <div class="row">
+                   <div class="col-md-4 text-center brand-info">
+                    <a href="#" class="logo"><li class="fas fa-shopping-bag"></li><h3>Shopping</h3></a>
+                    <p>Lorem ipsum dolor sit amet. amet ipsam harum veritatis ut rem laboriosam, deleniti dignissimos a illum. Velit provident porro autem.</p>
+                   </div>
+                   <div class="col-md-4 text-center links">
+                       <h3>links</h3>
+                       <div class="nav-links">
+                            <a href="#home">home</a>
+                            <a href="#product">product</a>
+                            <a href="#review">review</a>
+                            <a href="#offer">offer</a>
+                            <a href="#newsletter">newsletter</a>
+                       </div>
+                    </div>
+                    <div class="col-md-4 text-center follow-us">
+                        <h3>follow-us</h3>
+                        <div class="follow-us-links">
+                            <a href="#">facebook</a>
+                            <a href="#">twitter</a>
+                            <a href="#">instagram</a>
+                            <a href="#">pinterest</a>
+                        </div>
+                     </div>
+               </div>
+               <div class="credit text-center">&copy; copyright @2021 by <span>ME <3 </span></div>
+           </section>
+            <!-- Footer section ends -->
+
+    <!-- Jequery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <!-- OwlCarousel2 JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+     <!-- Custom Script -->
+    <script src='js/main.js'></script>
+</body>
+</html>
